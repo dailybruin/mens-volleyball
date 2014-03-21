@@ -8,14 +8,14 @@
 
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
-	#main {
+	.text-wrapper {
 		width: 720px;
 	}
 }
 
 /* Large desktop */
 @media (min-width: 980px) { 
-	#main {
+	.text-wrapper {
 		width: 800px;
 	}
 }
