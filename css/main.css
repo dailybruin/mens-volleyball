@@ -9,7 +9,6 @@ html, body {
     -webkit-font-smoothing: antialiased;
 }
 header {
-	
 	width: 100%;
 }
 	video {
@@ -56,10 +55,29 @@ header {
 			width:65px;
 			height:65px;
 			font-size: 100%;
+			color:white;
 			margin:10px;
-
+		}
+		#shareMenu{
+			position: fixed;
+			top: 0;
+			width:65px;
+			height:25px;
+			font-size: 12px;
+			margin-top: 90px;
+			margin-left: 10px;
+			text-align: center;
 
 		}
+		#shareMenu img{
+			width:10px;
+			height:10px;
+		}
+		#shareMenu ul{
+			list-style-type: none;
+
+		}
+
 
 article {
 	margin-bottom: 10%;
@@ -73,6 +91,8 @@ p {
 }
 
 #main {
+	margin: 40px auto;
+	padding-bottom: 200px;
 }
 
 .text-wrapper {
@@ -93,9 +113,7 @@ p {
     padding-top: 30px; height: 0; overflow: hidden;
 }
  
-.full-width-video iframe,
-.full-width-video object,
-.full-width-video embed {
+.full-width-video iframe{
     position: absolute;
     top: 0;
     left: 0;
