@@ -50,6 +50,16 @@ header {
 				font-size: 22px;
 				text-transform: lowercase;
 			}
+		#homepage img {
+			position: fixed;
+			top: 0;
+			width:65px;
+			height:65px;
+			font-size: 100%;
+			margin:10px;
+
+
+		}
 
 article {
 	margin-bottom: 10%;
