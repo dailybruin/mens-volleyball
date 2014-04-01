@@ -58,27 +58,23 @@ header {
 			color:white;
 			margin:10px;
 		}
-		#shareMenu{
+		#share-menu {
+			list-style-type: none;
 			position: fixed;
 			top: 0;
 			width:65px;
-			height:25px;
-			font-size: 12px;
 			margin-top: 90px;
 			margin-left: 10px;
+			padding-left: 0; 
 			text-align: center;
-
 		}
-		#shareMenu img{
-			width:10px;
-			height:10px;
+		#share-menu li{
+			padding-top: 5px;
 		}
-		#shareMenu ul{
-			list-style-type: none;
-
+		#share-menu img{
+			width:20px;
+			height:20px;
 		}
-
-
 article {
 	margin-bottom: 10%;
 }
