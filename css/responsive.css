@@ -4,6 +4,23 @@
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
+	h1 {
+		font-family: "Lato", Helvetica, Arial, sans-serif;
+		font-size: 30px;
+		font-weight: 100;
+		margin: 50px auto 25px;
+		text-align: center;
+		text-shadow: 1px 1px 1px #666;
+		text-transform: uppercase;
+	}
+	#video-overlay h2 {
+		font-family: "Lato", Helvetica, Arial, sans-serif;
+		font-size: 10px;
+		font-weight:130;
+		text-align: center;
+		text-shadow: 1px 1px 1px #666;
+		text-transform: uppercase;
+	}
 }
 
 /* Portrait tablet to landscape and desktop */
